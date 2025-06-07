@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(76, 76, 76);
+  color: rgb(248, 240, 225);
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a span {
+  color: rgb(255, 191, 170);
+}
