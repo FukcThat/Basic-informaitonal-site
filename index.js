@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.sendFile(path.join(__dirname, "about.html"));
+  res.render("about", { links: links });
 });
 
 app.get("/contact-me", (req, res) => {
